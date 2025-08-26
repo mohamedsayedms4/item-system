@@ -1,0 +1,133 @@
+/* Base Styles */
+body { 
+    direction: rtl; 
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Form Containers */
+.form-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.required {
+    color: red;
+}
+
+/* Cards */
+.card {
+    margin-top: 20px;
+}
+
+/* Add Item Form */
+.add-form {
+    background: #e8f5e8;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.add-form label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+.add-form input[type="text"],
+.add-form input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.add-form button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.add-form button:hover {
+    background: #45a049;
+}
+
+/* Update & Delete Buttons */
+.delete-btn {
+    background: #f44336;
+}
+.delete-btn:hover {
+    background: #da190b;
+}
+
+.update-btn {
+    background: #ff9800;
+}
+.update-btn:hover {
+    background: #e68900;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Messages */
+.message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success {
+    background: #d4edda;
+    color: #155724;
+}
+
+.error {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+/* Badge for Item ID */
+.item-id-badge {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+}
