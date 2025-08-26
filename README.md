@@ -42,7 +42,6 @@ ProductManagementWebApp/
 │  │     ├─ editItem.jsp
 │  │     └─ items.jsp
 └─ README.md
----
 
 ⚙️ Technologies Used
 
