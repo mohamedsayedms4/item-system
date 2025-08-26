@@ -18,6 +18,7 @@ A simple Java Web Application for managing products using JSP, Servlets, and JDB
 
 ## 🏗️ Project Structure
 
+```text
 item-system/
 ├── src/
 │   ├── main/
@@ -41,6 +42,7 @@ item-system/
 │   │       ├── editItem.jsp
 │   │       └── items.jsp
 └── README.md
+```
 
 ---
 
@@ -108,6 +110,11 @@ Configure JDBC connection in your project (`ItemServiceImpl` or `DBUtil`).
    http://localhost:8080/item-system/items
    ```
 
+---
+
+## 📱 Screenshots
+
+> Add screenshots of your application here to showcase the interface
 
 ---
 
@@ -142,3 +149,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - Orcale for the database system
 
 ---
+
