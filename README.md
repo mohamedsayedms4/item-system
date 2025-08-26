@@ -42,3 +42,49 @@ ProductManagementWebApp/
 │  │     ├─ editItem.jsp
 │  │     └─ items.jsp
 └─ README.md
+
+⚙️ Technologies Used
+
+Java EE / Jakarta EE
+
+JSP & Servlets
+
+JDBC for database connection
+
+Bootstrap 5 for responsive design
+
+HTML5, CSS3, JavaScript
+
+💾 Database Setup
+
+Create a database product_db.
+
+Create a table items:
+
+CREATE TABLE items (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
+    quantity INT NOT NULL
+);
+
+
+Configure JDBC connection in your project (ItemServiceImpl or DBUtil).
+
+🚀 How to Run
+
+Clone the repository:
+
+git clone https://github.com/your-username/ProductManagementWebApp.git
+
+
+Import the project into Eclipse/IntelliJ IDEA as a Dynamic Web Project.
+
+Deploy to Tomcat 9+ server.
+
+Access the application at:
+http://localhost:8080/ProductManagementWebApp/items
+
+📄 License
+
+This project is MIT Licensed.
