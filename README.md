@@ -1,4 +1,4 @@
-# 🛒 Product Management WebApp
+# 🛒 Item Management System
 
 A simple Java Web Application for managing products using JSP, Servlets, and JDBC. Users can add, update, delete, and view products with prices and quantities. The interface is RTL (Arabic) with Bootstrap 5 for styling.
 
@@ -18,8 +18,7 @@ A simple Java Web Application for managing products using JSP, Servlets, and JDB
 
 ## 🏗️ Project Structure
 
-```text
-ProductManagementWebApp/
+item-system/
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -42,7 +41,6 @@ ProductManagementWebApp/
 │   │       ├── editItem.jsp
 │   │       └── items.jsp
 └── README.md
-```
 
 ---
 
@@ -92,7 +90,7 @@ Configure JDBC connection in your project (`ItemServiceImpl` or `DBUtil`).
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/ProductManagementWebApp.git
+   git clone https://github.com/mohamedsayedms4/item-system.git
    ```
 
 2. **Import Project:**
@@ -107,14 +105,9 @@ Configure JDBC connection in your project (`ItemServiceImpl` or `DBUtil`).
 
 5. **Access Application:**
    ```
-   http://localhost:8080/ProductManagementWebApp/items
+   http://localhost:8080/item-system/items
    ```
 
----
-
-## 📱 Screenshots
-
-> Add screenshots of your application here to showcase the interface
 
 ---
 
@@ -136,9 +129,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: Mohamed Sayed
-- Email: ms4002@fayoum.edu.eg
+**Mohamed Sayed**
+- GitHub: [@mohamedsayedms4](https://github.com/mohamedsayedms4)
+- Email: [ms4002@fayoum.edu.eg](mailto:ms4002@fayoum.edu.eg)
 
 ---
 
@@ -146,7 +139,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 - Bootstrap team for the amazing UI framework
 - Apache Tomcat for the servlet container
-- MySQL for the database system
+- Orcale for the database system
 
 ---
-
